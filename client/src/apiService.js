@@ -1,4 +1,4 @@
-const USER_URL = "http://localhost:3001/user"
+const USER_URL = "https://limitless-depths-58854.herokuapp.com/user/"
 
 exports.addUser = async (user) => {
     const res = await fetch(USER_URL, {
