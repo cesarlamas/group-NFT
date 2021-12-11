@@ -2,7 +2,7 @@ import React from 'react'
 import { Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { useState } from 'react';
-import { addUser } from '../apiService';
+import {addUser} from "../apiService"
 import { useNavigate } from 'react-router-dom';
 
 function User() {
